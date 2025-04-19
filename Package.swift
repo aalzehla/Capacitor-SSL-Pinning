@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapacitorSslPinning",
+    name: "AalzehlaCapacitorSslPinning",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "CapacitorSslPinning",
+            name: "AalzehlaCapacitorSslPinning",
             targets: ["SSLCertificateCheckerPlugin"])
     ],
     dependencies: [
